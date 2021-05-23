@@ -1,0 +1,18 @@
+import java.util.Scanner;
+import java.util.Locale;
+
+public class Desafio2{
+    public static void main(String[] args) {
+
+        Locale.setDefault(new Locale("en", "US"));
+
+        Scanner sc = new Scanner(System.in);
+
+        //continue a solucao
+
+        String[] cpf = sc.nextLine().split("\\.|-");
+        for (String s : cpf){
+          System.out.println(s);
+          
+        }
+        
