@@ -1,0 +1,14 @@
+import java.io.IOException;
+import java.util.Scanner;
+
+
+public class Desafio {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int numero = scan.nextInt();
+        for (int a = 2; a <= numero; a++) {
+            if (a % 2 == 0) System.out.println(a);
+        }
+    }
+}
